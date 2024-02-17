@@ -71,6 +71,14 @@ sudo iptables -A DOCKER-USER -m set --match-set allowed_ips src -p tcp --dport 3
 sudo iptables -A DOCKER-USER -p tcp --dport 31338 -j DROP
 ```
 
+### Viewing Rules
+
+To list all rules in the `DOCKER-USER` chain, use the following command:
+
+```bash
+#sudo iptables -L DOCKER-USER --line-numbers -n -v
+
+
 ### Making Configuration Persistent
 
 #### `ipset`
