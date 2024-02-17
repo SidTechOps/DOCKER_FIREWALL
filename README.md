@@ -77,6 +77,7 @@ To list all rules in the `DOCKER-USER` chain, use the following command:
 
 ```bash
 #sudo iptables -L DOCKER-USER --line-numbers -n -v
+```
 
 
 ### Making Configuration Persistent
