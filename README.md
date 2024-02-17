@@ -1,6 +1,6 @@
 # Personal Firewall Management Tool for Docker
 
-This project outlines a method to manage firewall rules for Docker containers on a Linux server, utilizing `iptables` and `ipset`. It allows for specifying which IP addresses are allowed to connect to specific ports, providing a security group-like mechanism for Docker containers.
+This project outlines a method to manage firewall rules for Docker containers on a Linux server, utilizing `iptables` and `ipset`. It allows for specifying which IP addresses are allowed to connect to specific ports.
 
 ## Configuration and Usage
 
